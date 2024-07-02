@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>AsoRock</title>
+    <link rel="stylesheet" href="fa/css/all.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googlepis.com/css2?family=josefin+sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;l,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <div class="container-fluid">
+
+        <!-- navbar section -->
+        <div class="row pe-5">
+            
+            <div class="col mynavcontainer ">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light mynav ">
+                    <div class="container-fluid mynav ">
+                      <a class="navbar-brand" href="#">
+                        <h3> <img src="images/logo2.jpg" alt="logo" class="img-fluid bg-danger" >AsoRock</h3>
+                        
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="menu.html">Menu</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#aboutus">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#happening">Happenings</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#Contact">Contact</a>
+                          </li>
+                          <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            
+                          </form>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#Contact">Reservation</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="#Contact">
+                                <div class="row">
+                                    <div class="col">
+                                    <button type="button" class="btn "  data-bs-toggle="modal" data-bs-target="#productModal" style=" background-color: red; color: #fff;">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </button>
+                        
+                                    </div>
+                        
+                                    <div class="col"></div>
+                                </div>
+                            </a>
+                          </li>
+
+
+
+                         
+                          
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </nav>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h4>Cart Detail</h4>
+                  <img src="images/jollof.jpeg" alt="#" class="img-fluid" style="width: 100px;">
+                  <span>Jollofrice, chicken and plantain <br>
+                    <i class="fa-solid fa-minus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;"></i> &nbsp;&nbsp; 1 &nbsp;&nbsp;<i class="fa-solid fa-plus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;" ></i>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8358 7,500
+                </span>
+                </div>
+                <hr>
+                <div class="modal-body">
+                    <img src="images/cartitem.jpg" alt="#" class="img-fluid" style="width: 100px;">
+                    <span>Jollofrice, chicken and plantain <br>
+                      <i class="fa-solid fa-minus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;"></i> &nbsp;&nbsp; 1 &nbsp;&nbsp;<i class="fa-solid fa-plus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;" ></i>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8358 7,500
+                  </span>
+                  </div>
+                  <hr>
+                  <div class="modal-body">
+                    <img src="images/cartitem2.jpg" alt="#" class="img-fluid" style="width: 100px;">
+                    <span>Jollofrice, chicken and plantain <br>
+                      <i class="fa-solid fa-minus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;"></i> &nbsp;&nbsp; 1 &nbsp;&nbsp;<i class="fa-solid fa-plus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;" ></i>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8358 7,500
+                  </span>
+                  </div>
+                  <hr>
+                  <div class="modal-body">
+                    <img src="images/cartitem3.jpg" alt="#" class="img-fluid" style="width: 100px;">
+                    <span>Jollofrice, chicken and plantain <br>
+                      <i class="fa-solid fa-minus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;"></i> &nbsp;&nbsp; 1 &nbsp;&nbsp;<i class="fa-solid fa-plus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;" ></i>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8358 7,500
+                  </span>
+                  </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- banner -->
+         <div class="row">
+            <div class="col video-box">
+                <video src="images/backgroundv.mp4" autoplay loop ></video>
+
+                <div class="overlay" />
+               <div class="row">
+                <div class="col banner">
+                <p class="mb-4">Contrary to popular belief</p>
+                <h2 class="mb-4">Welcome to <span>AsoRock</span> Kitchen <br>
+                    Restaurant</h2>
+                    <a href="menu.html">Checkout our Menu</a>
+                </div>
+               </div>
+
+            </div>
+         </div>
+    </div>
+
+
+    <!-- About US -->
+    <div class="container-fluid" id="aboutus">
+        <div class="row mt-5 ">
+            <div class=" offset-5 col-12 mb-5">
+                <h1>About Us</h1>
+                <!-- <hr> -->
+            </div>
+            <div class="col-md-6 about1">
+                <div class="about">
+                    <h3>Our Story</h3>
+                    <h1>Cause we make the best delicacies in town, that's why!</h1>
+                </div>
+                <p>Welcome to AsoRock Kitchen , where culinary excellence meets warm hospitality in the heart of Lagos Nigeria. Nestled Chevron Hotel, our restaurant is a beloved destination for those who appreciate Nigerian dishes and foreign dishes.
+
+                    At AsoRock Kitchen we pride ourselves on crafting memorable dining experiences. Our talented team of chefs, led by Chef Dammy of Ekiti, meticulously selects the finest ingredients to create dishes that blend traditional recipes with a modern twist. Whether you're joining us for a casual lunch, an intimate dinner, or a celebratory event, every plate is prepared with passion and creativity.</p>
+            </div>
+            <div class="col-md-6 imagee">
+                <img src="images/background.jpg" alt="background" class="img-fluid">
+                <img src="images/background3.jpg" alt="">
+            </div>
+        </div>
+
+
+
+        <!-- Happenings -->
+
+        <div class="row mt-5" id="happening">
+            <div class="col offset-4 col-12">
+                <h1>Working Hours</h1>
+                <!-- <hr> -->
+            </div>
+        </div>
+
+        <div class="row mt-5 happenings-background align-items-center justify-content-center">
+            <div class="col-md-6">
+                <i class="fa-solid fa-quote-right ms-5"></i>
+
+                <p>As a chef, I believe that food is more than mere sustenance. It's a canvas for creativity, a journey of flavors, and a testament to the joy of sharing. Every dish tells a story, weaving together ingredients with technique to evoke emotions and memories. Cooking is my way of expressing love and passion, inviting others to experience the artistry and soul that goes into each plate. It's a privilege to nourish and delight, transforming simple ingredients into moments of culinary delight that linger on the palate and in the heart.</p>
+
+                <p class="mt-5">Chef Dammy - Restaurant Chef</p>
+
+            </div>
+            <div class="col-md-6 happenings-background2">
+                <div class="happenings-bg2content">
+                    <span >Call For Reservations</span><br>
+                    <h2>Opening Time</h2>
+
+
+                    <div class="row">
+                        <div class="col">
+                            <span>Monday to Thursday</span><br>
+                            <h1>10:00am</h1>
+                            <h1>12:00am</h1>
+                        </div>
+                        <div class="col side">
+                            <span>Friday to Sunday</span><br>
+                            <h1>12:00am</h1>
+                            <h1>22:00pm</h1>
+                        </div>
+                    </div>
+
+                    <div class="buttondesign mt-5">
+                        <button class="btn">Contact US</button>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- why we are the best  -->
+         <div class="row whycontainer">
+            <div class="offset-2 col-8 mt-5 mb-2 head">
+                <p>Why we are the best</p>
+                <h3>Our Top3 Rated Dishes</h3>
+                <!-- <hr> -->
+            </div>
+            <div class="col-md-2 ms-5">
+                <div class="hover-box hover-box1">
+                    <div class="hover-inner-box">
+                        <h4> Our Top Rated Dish <br> Quality is in the hearts</h4>
+                        <i class="fa-solid fa-bowl-food"></i>
+                        <p>Pounded yam is a staple food in West Africa, particularly popular in Nigeria. It is made from boiled yam that are pounded until smooth, creating a stretchy dough-like consistency, and is often enjoyed as a main accompaniment to various soups.
+
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="hover-box hover-box2">
+                    <div class="hover-inner-box">
+                        <h4> Our Top Rated Dish <br> Quality is in the hearts</h4>
+                        <i class="fa-solid fa-bowl-food"></i>
+                        <p>Pounded yam is a staple food in West Africa, particularly popular in Nigeria. It is made from boiled yam that are pounded until smooth, creating a stretchy dough-like consistency, and is often enjoyed as a main accompaniment to various soups.
+
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 ">
+                <div class="hover-box hover-box3">
+                    <div class="hover-inner-box">
+                        <h4> Our Top Rated Dish <br> Quality is in the hearts</h4>
+                        <i class="fa-solid fa-bowl-food"></i>
+                        <p>Pounded yam is a staple food in West Africa, particularly popular in Nigeria. It is made from boiled yam that are pounded until smooth, creating a stretchy dough-like consistency, and is often enjoyed as a main accompaniment to various soups.
+
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+
+
+         <!-- media  -->
+          <div class="row my-5">
+            <div class=" offset-5 col-6">
+                <h1>Gallery <i class="fa-solid fa-photo-film"></i></h1>
+                
+            </div>
+          </div>
+          <div class="row my-5 mycoursel">
+            <div class="offset-2 col-10 my-5">
+                <h1>Explore AsoRock Space Through Pictures</h1>
+            </div>
+            <div class=" offset-2 col-8">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/coursel.jpg" class="d-block w-70 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="w-50">Our Exclusive Lounge</h5>
+                          <p class="w-50">This section is strictly for VVIPs.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/coursel2.jpg" class="d-block w-70 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="w-50">Our Exclusive Lounge</h5>
+                          <p class="w-50">This section is strictly for VVIPs. slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/coursel3.jpg" class="d-block w-70 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="w-50">Our Exclusive Lounge</h5>
+                          <p class="w-50">Some This section is strictly for VVIPs slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/coursel4.jpg" class="d-block w-70 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="w-50">Our Exclusive Lounge</h5>
+                          <p class="w-50">Some This section is strictly for VVIP the third slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/coursel5.jpg" class="d-block w-70 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5 class="w-50">Our Exclusive Lounge</h5>
+                          <p class="w-50">Some This section is strictly for VVIPs. the third slide.</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            
+          </div>
+
+
+
+
+          <!-- Contact -->
+           <div class="row my-5" id="Contact">
+            <div class="offset-5 col-6">
+                <h1>Contact Us @</h1>
+            </div>
+           </div>
+          <div class="row mycontact">
+            <div class=" col-12 my-5">
+                <h1>Stay In Touch With Us!</h1>
+            </div>
+            <div class="col-md-4 mycontact1">
+                <div class="contactborder">
+                <h3>Contact</h3>
+                </div>
+                <p class="mt-3">oluwatobilobaadedapo81@gmail.com <br> 07052151804</p>
+
+                <h4 class="my-5">Location & Hours</h4>
+                <p>500 Terry Francois Street,
+                    <br>
+
+                    San Francisco, CA 94158</p>
+
+                    <p>Mon. to Thur. 6pm - 1am
+                         <br>
+                        Fri. to Sun. 6pm - 2am</p>
+
+
+            </div>
+            <div class="col-md-4 mycontact1">
+                <h3>Reservation</h3>
+                <form>
+
+					<div class="form-floating">
+
+						<input type="text" name="name" class="form-control form-control-lg" placeholder="Name">
+						<label class="form-label">Name</label>
+					</div>
+
+					<div class="form-floating">
+
+						<input type="date" name="date" class="form-control form-control-lg mt-5" placeholder="Date">
+						<label class="form-label">Date</label>
+					</div>
+
+                    <select class="form-select mt-5" aria-label="Default select example">
+                       <option selected>Number Of People</option>
+                        <option value="1">1 person</option>
+                        <option value="2">2 people</option>
+                        <option value="3">3 people</option>
+                        <option value="4">4 people</option>
+                        <option value="5">More people</option>
+                      </select>
+
+                      <button class="btn btn-danger mt-3 booknowbtn" onclick="alert('Reservation Booked')">Book Now</button>
+
+				</form>
+            </div>
+          </div>
+
+
+
+          <!-- footer  -->
+           <div class="row myfooter">
+            <div class="col myfootercontent">
+                <i class="fa-solid fa-burger ii mt-3"></i>
+                <h5 class="mt-5">Join our mailing list and we'll keep you posted about what's happening at Muchachos</h5>
+
+
+                <p><i>© 2023 by Muchachos. Proudly created with Wix.com</i></p>
+
+
+            </div>
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>

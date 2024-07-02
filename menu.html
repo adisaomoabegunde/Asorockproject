@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>AsoRock</title>
+    <link rel="stylesheet" href="fa/css/all.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googlepis.com/css2?family=josefin+sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;l,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body class="bodybg">
+
+     <!-- navbar section -->
+     <div class="row pe-5">
+            
+        <div class="col mynavcontainer ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light mynav ">
+                <div class="container-fluid mynav ">
+                  <a class="navbar-brand" href="#">
+                    <h3> <img src="images/logo2.jpg" alt="logo" class="img-fluid bg-danger" >AsoRock</h3>
+                    
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="menu.html">Menu</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#aboutus">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#happening">Happenings</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#Contact">Contact</a>
+                      </li>
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        
+                      </form>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#Contact">Reservation</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#Contact">
+                            <div class="row">
+                                <div class="col">
+                                <button type="button" class="btn "  data-bs-toggle="modal" data-bs-target="#productModal" style=" background-color: red; color: #fff;">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </button>
+                    
+                                </div>
+                    
+                                <div class="col"></div>
+                            </div>
+                        </a>
+                      </li>
+
+
+
+                     
+                      
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h4>Cart Detail</h4>
+              <img src="images/jollof.jpeg" alt="#" class="img-fluid" style="width: 100px;">
+              <span>Jollofrice, chicken and plantain <br>
+                <i class="fa-solid fa-minus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;"></i> &nbsp;&nbsp; 1 &nbsp;&nbsp;<i class="fa-solid fa-plus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;" ></i>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8358 7,500
+            </span>
+            </div>
+            <hr>
+            <div class="modal-body">
+                <img src="images/cartitem.jpg" alt="#" class="img-fluid" style="width: 100px;">
+                <span>Jollofrice, chicken and plantain <br>
+                  <i class="fa-solid fa-minus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;"></i> &nbsp;&nbsp; 1 &nbsp;&nbsp;<i class="fa-solid fa-plus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;" ></i>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8358 7,500
+              </span>
+              </div>
+              <hr>
+              <div class="modal-body">
+                <img src="images/cartitem2.jpg" alt="#" class="img-fluid" style="width: 100px;">
+                <span>Jollofrice, chicken and plantain <br>
+                  <i class="fa-solid fa-minus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;"></i> &nbsp;&nbsp; 1 &nbsp;&nbsp;<i class="fa-solid fa-plus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;" ></i>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8358 7,500
+              </span>
+              </div>
+              <hr>
+              <div class="modal-body">
+                <img src="images/cartitem3.jpg" alt="#" class="img-fluid" style="width: 100px;">
+                <span>Jollofrice, chicken and plantain <br>
+                  <i class="fa-solid fa-minus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;"></i> &nbsp;&nbsp; 1 &nbsp;&nbsp;<i class="fa-solid fa-plus mt-3" style="background-color: black; color: #fff; padding: 5px; border-radius: 5px;" ></i>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#8358 7,500
+              </span>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="container mt-5 mycontainer">
+        <div class="row mycontainers1">
+            <div class="col-md-5 mycontainers12">
+                <h1>Dinner Menu</h1>
+            </div>
+            <div class="col-md-5 mycontainers12 mycontainers123">
+                <h1>Lunch Menu</h1>
+            </div>
+            <div class="col-md-5 mycontainers123">
+                <h1>Breakfast Menu</h1>
+            </div>
+            <div class="col-md-8">
+                <p> Welcome to an extraordinary dining experience at AsoRock Welcome to Our Dinner Experience</p>
+            </div>
+        </div>
+        <div class="row mt-5 mycontainers1">
+            <div class="col-12 menubox">
+                <h1>Appetizers:</h1>
+            </div>
+            <div class="col-12">
+                <p class="mt-4">Welcome to an extraordinary dining experience at AsoRock</p>
+            </div>
+        </div>
+
+        <div class="row menubox1">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                <img src="images/background1.jpg" alt="Appetizers" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                 <br>
+                 Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                 <br><br>
+                 Extra Cheese...............&#8358 1,000 <br>
+                 <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+
+                </span>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                <img src="images/background1.jpg" alt="Appetizers" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                 <br>
+                 Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                 <br><br>
+                 Extra Cheese...............&#8358 1,000 <br>
+                 <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+
+                </span>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                <img src="images/background2.jpg" alt="Appetizers" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                 <br>
+                 Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                 <br><br>
+                 Extra Cheese...............&#8358 1,000 <br>
+                 <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+
+                </span>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                <img src="images/background2.jpg" alt="Appetizers" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                 <br>
+                 Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                 <br><br>
+                 Extra Cheese...............&#8358 1,000 <br>
+                 <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+
+                </span>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                <img src="images/background1.jpg" alt="Appetizers" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                 <br>
+                 Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                 <br><br>
+                 Extra Cheese...............&#8358 1,000 <br>
+                 <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+
+                </span>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row mt-5 mycontainers1">
+            <div class="col-12 menubox">
+                <h1>Desserts:</h1>
+            </div>
+            <div class="col-12">
+                <p class="mt-4">Welcome to an extraordinary dining experience at AsoRock</p>
+            </div>
+        </div>
+        
+
+
+
+        <div class="row menubox1">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                <img src="images/beans.webp" alt="Appetizers" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                 <br>
+                 Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                 <br><br>
+                 Extra Cheese...............&#8358 1,000 <br>
+                 <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+
+                </span>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                <img src="images/yam.jpg" alt="Appetizers" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                 <br>
+                 Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                 <br><br>
+                 Extra Cheese...............&#8358 1,000 <br>
+                 <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+
+                </span>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                <img src="images/yam.jpg" alt="Appetizers" class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                 <br>
+                 Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                 <br><br>
+                 Extra Cheese...............&#8358 1,000 <br>
+                 <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+
+                </span>
+                </div>
+                </div>
+            </div>
+           
+
+
+
+
+
+            <div class="row mt-5 mycontainers1">
+                <div class="col-12 menubox">
+                    <h1>Main:</h1>
+                </div>
+                <div class="col-12">
+                    <p class="mt-4">Welcome to an extraordinary dining experience at AsoRock</p>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="row menubox1">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                    <img src="images/Pounded-Yam.jpg" alt="Appetizers" class="img-fluid">
+                    </div>
+                    <div class="col-md-8">
+                    <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                     <br>
+                     Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                     <br><br>
+                     Extra Cheese...............&#8358 1,000 <br>
+                     <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+    
+                    </span>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                    <img src="images/ofada.jpeg" alt="Appetizers" class="img-fluid">
+                    </div>
+                    <div class="col-md-8">
+                    <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                     <br>
+                     Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                     <br><br>
+                     Extra Cheese...............&#8358 1,000 <br>
+                     <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+    
+                    </span>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                    <img src="images/jollof.jpeg" alt="Appetizers" class="img-fluid">
+                    </div>
+                    <div class="col-md-8">
+                    <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                     <br>
+                     Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                     <br><br>
+                     Extra Cheese...............&#8358 1,000 <br>
+                     <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+    
+                    </span>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                    <img src="images/fufu.jpg" alt="Appetizers" class="img-fluid">
+                    </div>
+                    <div class="col-md-8">
+                    <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                     <br>
+                     Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                     <br><br>
+                     Extra Cheese...............&#8358 1,000 <br>
+                     <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+    
+                    </span>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                    <img src="images/friedrice.webp" alt="Appetizers" class="img-fluid">
+                    </div>
+                    <div class="col-md-8">
+                    <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                     <br>
+                     Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                     <br><br>
+                     Extra Cheese...............&#8358 1,000 <br>
+                     <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+    
+                    </span>
+                    </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row mt-5 mycontainers1">
+                    <div class="col-12 menubox">
+                        <h1>Beverages:</h1>
+                    </div>
+                    <div class="col-12">
+                        <p class="mt-4">Welcome to an extraordinary dining experience at AsoRock</p>
+                    </div>
+                </div>
+    
+
+
+
+                <div class="row menubox1">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-4">
+                        <img src="images/drink2 (1).jpg" alt="Appetizers" class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                        <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                         <br>
+                         Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                         <br><br>
+                         Extra Cheese...............&#8358 1,000 <br>
+                         <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+        
+                        </span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-4">
+                        <img src="images/drink2 (2).jpg" alt="Appetizers" class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                        <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                         <br>
+                         Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                         <br><br>
+                         Extra Cheese...............&#8358 1,000 <br>
+                         <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+        
+                        </span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-4">
+                        <img src="images/drink2 (3).jpg" alt="Appetizers" class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                        <span><i class="fa-solid fa-medal"></i> Grilled Filet Mignon:.............&#8358 7,000
+                         <br>
+                         Prime cut of beef grilled to your liking, served with garlic mashed potatoes and <br>sautéed seasonal vegetables
+                         <br><br>
+                         Extra Cheese...............&#8358 1,000 <br>
+                         <i class="fa-solid fa-coins"  style="color: red ; font-size: 25px;"></i>
+        
+                        </span>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                   
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+    </div>
+    
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                 <!-- footer  -->
+     <div class="row myfooter">
+        <div class="col myfootercontent">
+            <i class="fa-solid fa-burger ii mt-3"></i>
+            <h5 class="mt-5">Join our mailing list and we'll keep you posted about what's happening at Muchachos</h5>
+
+
+            <p><i>© 2023 by Muchachos. Proudly created with Wix.com</i></p>
+
+
+        </div>
+       </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
